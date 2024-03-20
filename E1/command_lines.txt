@@ -1,0 +1,11 @@
+CIRCULAR ORBIT
+./nbody_sh1 -d 0.01 -e 0.014 -o 2.1875e-4 -t 0.15 < input_1.txt > output_1.txt
+
+ELLIPTICAL ORBIT
+./nbody_sh1 -d 0.01 -e 0.036 -o 5.625e-4 -t 0.37 < input_2.txt > output_2.txt
+
+UNBOUND CASE
+./nbody_sh1 -d 0.01 -e 0.005 -o 1.4e-4 -t 0.08 < input_4.txt > output_4.txt
+
+SIMILAR MASSES
+./nbody_sh1 -d 0.01 -e 0.23 -o 2.291e-3 -t 2.3 < input_3.txt > output_3.txt
