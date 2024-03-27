@@ -1,0 +1,5 @@
+RESULT 1
+./nbody_sh1 -d 0.01 -e 2.123e-1 -o 2.123e-2 -t 3 < input_1.txt > output_1.txt
+
+RESULT 2
+./nbody_sh1 -d 0.01 -e 2.123e-1 -o 2.123e-2 -t 12 < input_1.txt > output_2.txt
