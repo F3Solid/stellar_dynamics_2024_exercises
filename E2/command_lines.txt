@@ -10,5 +10,5 @@ RESULT 2_1
 RESULT 2_2
 ./nbody_sh1 -d 0.01 -e 2.123e-1 -o 2.123e-2 -t 50 < input_2.txt > output_2_2.txt (stopped at -t 16)
 
-LAST
+RESULT 3_1
 ./nbody_sh1 -d 0.01 -e 2.123e-1 -o 2.123e-2 -t 5 < input_3.txt > output_3.txt
