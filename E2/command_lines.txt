@@ -1,14 +1,23 @@
-RESULT 1_1
+RESULT 1_1 (m=7, N=132, R=15)
 ./nbody_sh1 -d 0.01 -e 2.123e-1 -o 2.123e-2 -t 3 < input_1.txt > output_1_1.txt
 
-RESULT 1_2
+RESULT 1_2 (m=7, N=132, R=15)
 ./nbody_sh1 -d 0.01 -e 2.123e-1 -o 2.123e-2 -t 12 < input_1.txt > output_1_2.txt
 
-RESULT 2_1
+RESULT 2_1 (m=7, N=132, R=15)
 ./nbody_sh1 -d 0.01 -e 2.123e-1 -o 2.123e-2 -t 3 < input_2.txt > output_2_1.txt
 
-RESULT 2_2
+RESULT 2_2 (m=7, N=132, R=15)
 ./nbody_sh1 -d 0.01 -e 2.123e-1 -o 2.123e-2 -t 50 < input_2.txt > output_2_2.txt (stopped at -t 16)
 
-RESULT 3_1
+RESULT 3_1 (m=7, N=132, R=15)
 ./nbody_sh1 -d 0.01 -e 2.123e-1 -o 2.123e-2 -t 5 < input_3.txt > output_3.txt
+
+RESULT 4_1 (m=1, N=300, R=1)
+Unknown
+
+RESULT 5_1 (m=1, N=600, R=1)
+./nbody_sh1 -d 0.03 -e 4.534e-3 -o 4.534e-4 -t 1e-1 < input_5.txt > output_5_1.txt
+
+RESULT 6_1 (m=1, N=600, R=1)
+./nbody_sh1 -d 0.03 -e 3.512e-3 -o 3.512e-4 -t 1e-1 < input_6.txt > output_6_1.txt
