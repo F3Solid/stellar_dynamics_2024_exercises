@@ -19,5 +19,5 @@ Unknown
 RESULT 5_1 (m=1, N=600, R=1)
 ./nbody_sh1 -d 0.03 -e 4.534e-3 -o 4.534e-4 -t 1e-1 < input_5.txt > output_5_1.txt
 
-RESULT 6_1 (m=1, N=600, R=1)
+RESULT 6_1 (m=1, N=1000, R=1)
 ./nbody_sh1 -d 0.03 -e 3.512e-3 -o 3.512e-4 -t 1e-1 < input_6.txt > output_6_1.txt
