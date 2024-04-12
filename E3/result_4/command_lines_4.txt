@@ -2,16 +2,16 @@ RESULT_4_1 (m=1, N=10000, R=10)
 ./treecode in=input_4.txt out=output_4_1.txt dtime=3.512e-4 eps=0.05 theta=0.1 tstop=1 dtout=3.512e-3 options=out-phi
 
 RESULT_4_2 (m=1, N=10000, R=10)
-./treecode in=input_4.txt out=output_4_1.txt dtime=3.512e-4 eps= 0.05 theta=0.2 tstop=1 dtout=3.512e-3 options=out-phi
+./treecode in=input_4.txt out=output_4_1.txt dtime=3.512e-4 eps=0.05 theta=0.2 tstop=1 dtout=3.512e-3 options=out-phi
 
 RESULT_4_3 (m=1, N=10000, R=10)
-./treecode in=input_4.txt out=output_4_1.txt dtime=3.512e-4 eps= 0.05 theta=0.4 tstop=1 dtout=3.512e-3 options=out-phi
+./treecode in=input_4.txt out=output_4_1.txt dtime=3.512e-4 eps=0.05 theta=0.4 tstop=1 dtout=3.512e-3 options=out-phi
 
 RESULT_4_4 (m=1, N=10000, R=10)
-./treecode in=input_4.txt out=output_4_1.txt dtime=3.512e-4 eps= 0.05 theta=0.6 tstop=1 dtout=3.512e-3 options=out-phi
+./treecode in=input_4.txt out=output_4_1.txt dtime=3.512e-4 eps=0.05 theta=0.6 tstop=1 dtout=3.512e-3 options=out-phi
 
 RESULT_4_5 (m=1, N=10000, R=10)
-./treecode in=input_4.txt out=output_4_1.txt dtime=3.512e-4 eps= 0.05 theta=0.8 tstop=1 dtout=3.512e-3 options=out-phi
+./treecode in=input_4.txt out=output_4_1.txt dtime=3.512e-4 eps=0.05 theta=0.8 tstop=1 dtout=3.512e-3 options=out-phi
 
 RESULT_4_6 (m=1, N=10000, R=10)
-./treecode in=input_4.txt out=output_4_1.txt dtime=3.512e-4 eps= 0.05 theta=1 tstop=1 dtout=3.512e-3 options=out-phi
+./treecode in=input_4.txt out=output_4_1.txt dtime=3.512e-4 eps=0.05 theta=1 tstop=1 dtout=3.512e-3 options=out-phi
