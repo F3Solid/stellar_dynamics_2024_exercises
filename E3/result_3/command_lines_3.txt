@@ -7,10 +7,10 @@ RESULT_3_2 (m=1, N=5000, R=10)
 RESULT_3_3 (m=1, N=5000, R=10)
 ./treecode in=input_3.txt out=output_3_3.txt dtime=4.967e-4 eps=0.01 theta=0.1 tstop=1 dtout=4.967e-3 options=out-phi
 
-RESULT_3_4 (m=1, N=5000, R=10) *** TO DO ***
+RESULT_3_4 (m=1, N=5000, R=10)
 ./treecode in=input_3.txt out=output_3_4.txt dtime=4.967e-4 eps=0.05 theta=0.1 tstop=1 dtout=4.967e-3 options=out-phi
 
-RESULT_3_5 (m=1, N=5000, R=10) *** TO DO ***
+RESULT_3_5 (m=1, N=5000, R=10)
 ./treecode in=input_3.txt out=output_3_5.txt dtime=4.967e-4 eps=0.075 theta=0.1 tstop=1 dtout=4.967e-3 options=out-phi
 
 RESULT_3_6 (m=1, N=5000, R=10)
