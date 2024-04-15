@@ -3,3 +3,12 @@ RESULT_1 (m=1, N=600, R=1)
 
 RESULT_2 (m=1, N=10000, R=10)
 ./treecode in=input_2.txt out=output_2.txt dtime=3.512e-4 eps=0.001 theta=0.1 tstop=1 dtout=3.512e-3 options=out-phi
+
+RESULT_5 (m=1, N=50000, R=10)
+./treecode in=input_5.txt out=output_5.txt dtime=1.571e-4 eps=0.05 theta=0.35 tstop=0.4 dtout=1.571e-3 options=out-phi
+
+RESULT_6 (m=1, N=10000, R=10)
+./treecode in=input_6.txt out=output_6.txt dtime=3.512e-4 eps=0.05 theta=0.35 tstop=1 dtout=3.512e-3 options=out-phi
+
+RESULT_7 (m=1, N=30000, R=10)
+./treecode in=input_7.txt out=output_7.txt dtime=2.028e-4 eps=0.05 theta=0.35 tstop=0.6 dtout=2.028e-3 options=out-phi
