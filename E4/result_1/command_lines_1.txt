@@ -1,0 +1,14 @@
+RESULT_1_1 (M=1, N=10000, b=10, r:[0, 10b])
+./treecode in=input_1.txt out=output_1_1.txt dtime=1 eps=0.05 theta=0.5 tstop=1000 dtout=10 options=out-phi
+
+RESULT_1_2 (M=1, N=10000, b=10, r:[0, 10b])
+./treecode in=input_2.txt out=output_1_2.txt dtime=1 eps=0.05 theta=0.35 tstop=1000 dtout=10 options=out-phi
+
+RESULT_1_3 (M=1, N=10000, b=10, r:[0, 10b])
+./treecode in=input_3.txt out=output_1_3.txt dtime=1 eps=0.05 theta=0.65 tstop=1000 dtout=10 options=out-phi
+
+RESULT_1_4 (M=1, N=10000, b=10, r:[0, 10b])
+./treecode in=input_4.txt out=output_1_4.txt dtime=1 eps=0.1 theta=0.5 tstop=1000 dtout=10 options=out-phi
+
+RESULT_1_5 (M=1, N=10000, b=10, r:[0, 10b])
+./treecode in=input_5.txt out=output_1_5.txt dtime=1 eps=0.001 theta=0.5 tstop=1000 dtout=10 options=out-phi
