@@ -1,8 +1,24 @@
 RESULT_1_1 (M=1, N=10000, b=10, r:[0, 10b])
 ./treecode in=input_1.txt out=output_1_1.txt dtime=1 eps=0.05 theta=0.5 tstop=1000 dtout=10 options=out-phi
 
-RESULT_1_1_LONG (M=1, N=10000, b=10, r:[0, 10b])
-./treecode in=input_1.txt out=output_1_1_long_dtout_10.txt dtime=1 eps=0.05 theta=0.5 tstop=7500 dtout=10 options=out-phi
+##############################################################
+
+    RESULT_1_1_LONG (M=1, N=10000, b=10, r:[0, 10b]) (DONE)
+    ./treecode in=input_1.txt out=output_1_1_dtime_1.txt dtime=1 eps=0.05 theta=0.5 tstop=7500 dtout=10 options=out-phi
+
+    RESULT_1_1_LONG (M=1, N=10000, b=10, r:[0, 10b]) FEDE
+    ./treecode in=input_1.txt out=output_1_1_dtime_0.01.txt dtime=0.01 eps=0.05 theta=0.5 tstop=7500 dtout=10 options=out-phi
+
+    RESULT_1_1_LONG (M=1, N=10000, b=10, r:[0, 10b]) ERIKA
+    ./treecode in=input_1.txt out=output_1_1_dtime_0.05.txt dtime=0.05 eps=0.05 theta=0.5 tstop=7500 dtout=10 options=out-phi
+
+    RESULT_1_1_LONG (M=1, N=10000, b=10, r:[0, 10b]) EDO
+    ./treecode in=input_1.txt out=output_1_1_dtime_0.1.txt dtime=0.1 eps=0.05 theta=0.5 tstop=7500 dtout=10 options=out-phi
+
+    RESULT_1_1_LONG (M=1, N=10000, b=10, r:[0, 10b]) GIULIA
+    ./treecode in=input_1.txt out=output_1_1_dtime_0.5.txt dtime=0.5 eps=0.05 theta=0.5 tstop=7500 dtout=10 options=out-phi
+
+##############################################################
 
 RESULT_1_2 (M=1, N=10000, b=10, r:[0, 10b])
 ./treecode in=input_1.txt out=output_1_2.txt dtime=1 eps=0.05 theta=0.35 tstop=1000 dtout=10 options=out-phi
