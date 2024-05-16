@@ -25,6 +25,3 @@ RESULT_1_4 (M=1, N=10000, b=10, r:[0, 10b])
 
 RESULT_1_5 (M=1, N=10000, b=10, r:[0, 10b])
 ./treecode in=input_1.txt out=output_1_5.txt dtime=1 eps=0.001 theta=0.5 tstop=1000 dtout=10 options=out-phi
-
-RESULT_2
-./treecode in=input_2.txt out=output_2.txt dtime=4.819e-01 eps=0.05 theta=0.5 tstop=7.915e3 dtout=10 options=out-phi
