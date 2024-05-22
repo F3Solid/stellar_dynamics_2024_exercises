@@ -1,0 +1,2 @@
+RESULT_1
+./treecode in=input_1.txt out=output_1.txt dtime=4.819e-01 eps=0.05 theta=0.5 tstop=7.915e3 dtout=10 options=out-phi
